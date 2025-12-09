@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///Users/manojdhakal/Downloads/digital-artist-book/app/layout.tsx"],"sourcesContent":["// import type React from \"react\"\n// import type { Metadata } from \"next\"\n// import { Geist, Geist_Mono } from \"next/font/google\"\n// import \"./globals.css\"\n\n// const _geist = Geist({ subsets: [\"latin\"] })\n// const _geistMono = Geist_Mono({ subsets: [\"latin\"] })\n\n// export const metadata: Metadata = {\n//   title: \"Two Archives of Absence\",\n//   description:\n//     \"A digital artist book contrasting Musaffah migrant labor room photographs with NYUAD dormitory automation and official housing text.\",\n//     generator: 'v0.app'\n// }\n\n// export default function RootLayout({\n//   children,\n// }: Readonly<{\n//   children: React.ReactNode\n// }>) {\n//   return (\n//     <html lang=\"en\">\n//       <body className=\"font-sans antialiased\">{children}</body>\n//     </html>\n//   )\n// }\n"],"names":[],"mappings":"AAAA,iCAAiC;AACjC,uCAAuC;AACvC,uDAAuD;AACvD,yBAAyB;AAEzB,+CAA+C;AAC/C,wDAAwD;AAExD,sCAAsC;AACtC,sCAAsC;AACtC,iBAAiB;AACjB,8IAA8I;AAC9I,0BAA0B;AAC1B,IAAI;AAEJ,uCAAuC;AACvC,cAAc;AACd,gBAAgB;AAChB,8BAA8B;AAC9B,QAAQ;AACR,aAAa;AACb,uBAAuB;AACvB,kEAAkE;AAClE,cAAc;AACd,MAAM;AACN,IAAI"}}]
+}
