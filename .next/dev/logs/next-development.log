@@ -193,3 +193,1085 @@ Import trace:
   Server Component:
     ./components/artist-book.tsx
     ./app/page.tsx
+[00:27:57.002] Server  LOG      ✓ Compiled in 181ms
+[00:27:57.381] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.381] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.381] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.381] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.381] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.381] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.445] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.445] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.445] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.582] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.582] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.582] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.582] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.582] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.582] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.645] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.645] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.645] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.647] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.647] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.647] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.896] Server  LOG      ✓ Compiled in 45ms
+[00:27:57.900] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.900] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.900] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.900] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:57.900] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.209] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.209] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.237] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.237] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.237] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.237] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.237] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.237] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.393] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.393] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.393] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.393] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.393] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.393] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.393] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:27:58.393] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.393] Browser ERROR   ./components/artist-book.tsx:6:1
+Export BookPage doesn't exist in target module
+  4 | import { ChevronLeft, ChevronRight } from "lucide-react"
+  5 | import { Button } from "@/components/ui/button"
+> 6 | import { BookPage } from "@/components/book-page"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { bookContent } from "@/lib/book-content"
+  8 |
+  9 | export function ArtistBook() {
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/artist-book.tsx
+    ./app/page.tsx
+[00:27:58.393] Browser ERROR   ./app/print/page.tsx:2:1
+Export BookPage doesn't exist in target module
+  1 | import { bookContent } from "@/lib/book-content"
+> 2 | import { BookPage } from "@/components/book-page" 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function PrintBook() {
+  5 |   return (
+
+The export BookPage was not found in module [project]/components/book-page.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
