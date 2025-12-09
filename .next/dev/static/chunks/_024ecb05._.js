@@ -89,6 +89,7 @@ __turbopack_context__.s([
     "BookPage",
     ()=>BookPage
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 ;
 function BookPage({ content }) {
@@ -101,7 +102,7 @@ function BookPage({ content }) {
                     children: content.title
                 }, void 0, false, {
                     fileName: "[project]/components/book-page.tsx",
-                    lineNumber: 12,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 content.subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -109,13 +110,13 @@ function BookPage({ content }) {
                     children: content.subtitle
                 }, void 0, false, {
                     fileName: "[project]/components/book-page.tsx",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 11,
+            lineNumber: 12,
             columnNumber: 7
         }, this);
     }
@@ -128,7 +129,7 @@ function BookPage({ content }) {
                     children: content.part
                 }, void 0, false, {
                     fileName: "[project]/components/book-page.tsx",
-                    lineNumber: 27,
+                    lineNumber: 28,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -136,74 +137,17 @@ function BookPage({ content }) {
                     children: content.title
                 }, void 0, false, {
                     fileName: "[project]/components/book-page.tsx",
-                    lineNumber: 28,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 26,
+            lineNumber: 27,
             columnNumber: 7
         }, this);
     }
-    // if (content.type === "musaffah-image") {
-    //   return (
-    //     <div
-    //       className={cn("h-full flex flex-col", content.fullBleed ? "p-0" : "p-8 md:p-16 items-center justify-center")}
-    //     >
-    //       <div
-    //         className={cn(
-    //           "relative bg-neutral-100",
-    //           content.fullBleed ? "w-full h-full" : "max-w-md w-full aspect-[4/3]",
-    //         )}
-    //       >
-    //         {/* Simulated low-res, compressed image aesthetic */}
-    //         <div
-    //           className="absolute inset-0 bg-cover bg-center"
-    //           style={{
-    //             backgroundImage: `url('${content.src}')`,
-    //             filter: "contrast(0.9) saturate(0.8)",
-    //             imageRendering: "auto",
-    //           }}
-    //         />
-    //         {/* JPEG artifact overlay */}
-    //         <div className="absolute inset-0 bg-gradient-to-br from-transparent via-neutral-200/10 to-neutral-300/20" />
-    //       </div>
-    //       {content.listingText && (
-    //         <p className="mt-4 text-[10px] text-neutral-400 font-mono max-w-sm text-center leading-relaxed">
-    //           {content.listingText}
-    //         </p>
-    //       )}
-    //     </div>
-    //   )
-    // }
-    // if (content.type === "musaffah-image") {
-    //   return (
-    //     // CHANGE 1: 'p-0' forces no padding, so it hits the edges
-    //     <div className="h-full w-full flex flex-col bg-gray-900 p-0 relative">
-    //       <div className="relative w-full h-full border-4 border-red-500 shadow-2xl">
-    //         {/* Enhanced image aesthetic */}
-    //         <div
-    //           className="absolute inset-0 bg-cover bg-center filter grayscale contrast-125 sepia-50"
-    //           style={{
-    //             backgroundImage: `url('${content.src}')`,
-    //             imageRendering: "pixelated",
-    //           }}
-    //         />
-    //         {/* Aggressive scanline overlay */}
-    //         <div className="absolute inset-0 bg-[url('/scanlines.png')] opacity-20 mix-blend-overlay" />
-    //         {/* Listing text overlaid at the bottom since image is full size */}
-    //         {content.listingText && (
-    //           <div className="absolute bottom-8 left-0 right-0 flex justify-center px-4">
-    //             <p className="text-sm text-yellow-300 font-mono font-bold max-w-xl text-center leading-snug tracking-widest uppercase bg-black/70 p-3 border-2 border-red-500 shadow-lg">
-    //               {content.listingText}
-    //             </p>
-    //           </div>
-    //         )}
-    //       </div>
-    //     </div>
-    //   )
-    // }
+    const baseURL = ("TURBOPACK compile-time value", "") || "";
     if (content.type === "musaffah-image") {
         return(// Container: Keeps it full width/height with no padding (p-0)
         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -214,11 +158,12 @@ function BookPage({ content }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-cover bg-center",
                         style: {
-                            backgroundImage: `url('${content.src}')`
+                            // backgroundImage: `url('${content.src}')`,
+                            backgroundImage: `url('${baseURL}${content.src}')`
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/book-page.tsx",
-                        lineNumber: 99,
+                        lineNumber: 42,
                         columnNumber: 11
                     }, this),
                     content.listingText && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -228,59 +173,26 @@ function BookPage({ content }) {
                             children: content.listingText
                         }, void 0, false, {
                             fileName: "[project]/components/book-page.tsx",
-                            lineNumber: 110,
+                            lineNumber: 57,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/book-page.tsx",
-                        lineNumber: 109,
+                        lineNumber: 56,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/book-page.tsx",
-                lineNumber: 97,
+                lineNumber: 40,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 95,
+            lineNumber: 38,
             columnNumber: 7
         }, this));
     }
-    // if (content.type === "nyuad-image") {
-    //   return (
-    //     <div className="h-full flex flex-col items-center justify-center p-8 md:p-16">
-    //       <div className="max-w-sm w-full aspect-[4/3] relative bg-neutral-50 border border-neutral-100">
-    //         <div
-    //           className="absolute inset-0 bg-cover bg-center"
-    //           style={{
-    //             backgroundImage: `url('${content.src}')`,
-    //           }}
-    //         />
-    //       </div>
-    //     </div>
-    //   )
-    // }
-    // if (content.type === "nyuad-image") {
-    //   return (
-    //     // CHANGE 2: Removed padding and centering constraints
-    //     <div className="h-full w-full p-0 bg-pink-100 border-8 border-purple-500 relative">
-    //       {/* Container is now full width/height */}
-    //       <div className="w-full h-full relative bg-white border-b-[6px] border-black">
-    //         <div
-    //           className="absolute inset-0 bg-cover bg-center"
-    //           style={{
-    //             backgroundImage: `url('${content.src}')`,
-    //           }}
-    //         />
-    //         <div className="absolute bottom-0 right-0 bg-purple-500 text-white p-2 text-xs font-bold uppercase tracking-widest z-10">
-    //           Documented.
-    //         </div>
-    //       </div>
-    //     </div>
-    //   )
-    // }
     if (content.type === "nyuad-image") {
         return(// Container: Full width/height, no padding (p-0) to hit the edges
         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -290,21 +202,21 @@ function BookPage({ content }) {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "absolute inset-0 bg-cover bg-center",
                     style: {
-                        backgroundImage: `url('${content.src}')`
+                        backgroundImage: `url('${baseURL}${content.src}')`
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/book-page.tsx",
-                    lineNumber: 159,
+                    lineNumber: 74,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/book-page.tsx",
-                lineNumber: 158,
+                lineNumber: 73,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 156,
+            lineNumber: 71,
             columnNumber: 7
         }, this));
     }
@@ -319,7 +231,7 @@ function BookPage({ content }) {
                         children: content.header
                     }, void 0, false, {
                         fileName: "[project]/components/book-page.tsx",
-                        lineNumber: 174,
+                        lineNumber: 89,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -327,18 +239,18 @@ function BookPage({ content }) {
                         children: content.text
                     }, void 0, false, {
                         fileName: "[project]/components/book-page.tsx",
-                        lineNumber: 176,
+                        lineNumber: 91,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/book-page.tsx",
-                lineNumber: 172,
+                lineNumber: 87,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 171,
+            lineNumber: 86,
             columnNumber: 7
         }, this);
     }
@@ -353,7 +265,7 @@ function BookPage({ content }) {
                         children: content.header
                     }, void 0, false, {
                         fileName: "[project]/components/book-page.tsx",
-                        lineNumber: 187,
+                        lineNumber: 102,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -363,23 +275,23 @@ function BookPage({ content }) {
                                 children: item
                             }, i, false, {
                                 fileName: "[project]/components/book-page.tsx",
-                                lineNumber: 191,
+                                lineNumber: 106,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/book-page.tsx",
-                        lineNumber: 189,
+                        lineNumber: 104,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/book-page.tsx",
-                lineNumber: 185,
+                lineNumber: 100,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 184,
+            lineNumber: 99,
             columnNumber: 7
         }, this);
     }
@@ -388,7 +300,7 @@ function BookPage({ content }) {
             className: "h-full bg-white"
         }, void 0, false, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 202,
+            lineNumber: 117,
             columnNumber: 12
         }, this);
     }
@@ -402,17 +314,17 @@ function BookPage({ content }) {
                     children: content.text
                 }, void 0, false, {
                     fileName: "[project]/components/book-page.tsx",
-                    lineNumber: 209,
+                    lineNumber: 124,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/book-page.tsx",
-                lineNumber: 208,
+                lineNumber: 123,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 207,
+            lineNumber: 122,
             columnNumber: 7
         }, this);
     }
@@ -424,12 +336,12 @@ function BookPage({ content }) {
                 children: content.text
             }, void 0, false, {
                 fileName: "[project]/components/book-page.tsx",
-                lineNumber: 220,
+                lineNumber: 135,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/book-page.tsx",
-            lineNumber: 219,
+            lineNumber: 134,
             columnNumber: 7
         }, this);
     }

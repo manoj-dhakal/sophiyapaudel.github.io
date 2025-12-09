@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils"
 import type { PageContent } from "@/lib/book-content"
 
+
 interface BookPageProps {
   content: PageContent
 }
@@ -29,66 +30,8 @@ export function BookPage({ content }: BookPageProps) {
       </div>
     )
   }
+  const baseURL = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
-  // if (content.type === "musaffah-image") {
-  //   return (
-  //     <div
-  //       className={cn("h-full flex flex-col", content.fullBleed ? "p-0" : "p-8 md:p-16 items-center justify-center")}
-  //     >
-  //       <div
-  //         className={cn(
-  //           "relative bg-neutral-100",
-  //           content.fullBleed ? "w-full h-full" : "max-w-md w-full aspect-[4/3]",
-  //         )}
-  //       >
-  //         {/* Simulated low-res, compressed image aesthetic */}
-  //         <div
-  //           className="absolute inset-0 bg-cover bg-center"
-  //           style={{
-  //             backgroundImage: `url('${content.src}')`,
-  //             filter: "contrast(0.9) saturate(0.8)",
-  //             imageRendering: "auto",
-  //           }}
-  //         />
-  //         {/* JPEG artifact overlay */}
-  //         <div className="absolute inset-0 bg-gradient-to-br from-transparent via-neutral-200/10 to-neutral-300/20" />
-  //       </div>
-  //       {content.listingText && (
-  //         <p className="mt-4 text-[10px] text-neutral-400 font-mono max-w-sm text-center leading-relaxed">
-  //           {content.listingText}
-  //         </p>
-  //       )}
-  //     </div>
-  //   )
-  // }
-  // if (content.type === "musaffah-image") {
-  //   return (
-  //     // CHANGE 1: 'p-0' forces no padding, so it hits the edges
-  //     <div className="h-full w-full flex flex-col bg-gray-900 p-0 relative">
-  //       <div className="relative w-full h-full border-4 border-red-500 shadow-2xl">
-  //         {/* Enhanced image aesthetic */}
-  //         <div
-  //           className="absolute inset-0 bg-cover bg-center filter grayscale contrast-125 sepia-50"
-  //           style={{
-  //             backgroundImage: `url('${content.src}')`,
-  //             imageRendering: "pixelated",
-  //           }}
-  //         />
-  //         {/* Aggressive scanline overlay */}
-  //         <div className="absolute inset-0 bg-[url('/scanlines.png')] opacity-20 mix-blend-overlay" />
-          
-  //         {/* Listing text overlaid at the bottom since image is full size */}
-  //         {content.listingText && (
-  //           <div className="absolute bottom-8 left-0 right-0 flex justify-center px-4">
-  //             <p className="text-sm text-yellow-300 font-mono font-bold max-w-xl text-center leading-snug tracking-widest uppercase bg-black/70 p-3 border-2 border-red-500 shadow-lg">
-  //               {content.listingText}
-  //             </p>
-  //           </div>
-  //         )}
-  //       </div>
-  //     </div>
-  //   )
-  // }
   if (content.type === "musaffah-image") {
     return (
       // Container: Keeps it full width/height with no padding (p-0)
@@ -99,7 +42,11 @@ export function BookPage({ content }: BookPageProps) {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url('${content.src}')`,
+              // backgroundImage: `url('${content.src}')`,
+                
+
+                backgroundImage: `url('${baseURL}${content.src}')`,
+
             }}
           />
           {/* Removed the scanline overlay div entirely */}
@@ -117,39 +64,7 @@ export function BookPage({ content }: BookPageProps) {
     )
   }
 
-  // if (content.type === "nyuad-image") {
-  //   return (
-  //     <div className="h-full flex flex-col items-center justify-center p-8 md:p-16">
-  //       <div className="max-w-sm w-full aspect-[4/3] relative bg-neutral-50 border border-neutral-100">
-  //         <div
-  //           className="absolute inset-0 bg-cover bg-center"
-  //           style={{
-  //             backgroundImage: `url('${content.src}')`,
-  //           }}
-  //         />
-  //       </div>
-  //     </div>
-  //   )
-  // }
-  // if (content.type === "nyuad-image") {
-  //   return (
-  //     // CHANGE 2: Removed padding and centering constraints
-  //     <div className="h-full w-full p-0 bg-pink-100 border-8 border-purple-500 relative">
-  //       {/* Container is now full width/height */}
-  //       <div className="w-full h-full relative bg-white border-b-[6px] border-black">
-  //         <div
-  //           className="absolute inset-0 bg-cover bg-center"
-  //           style={{
-  //             backgroundImage: `url('${content.src}')`,
-  //           }}
-  //         />
-  //         <div className="absolute bottom-0 right-0 bg-purple-500 text-white p-2 text-xs font-bold uppercase tracking-widest z-10">
-  //           Documented.
-  //         </div>
-  //       </div>
-  //     </div>
-  //   )
-  // }
+
 if (content.type === "nyuad-image") {
     return (
       // Container: Full width/height, no padding (p-0) to hit the edges
@@ -159,7 +74,7 @@ if (content.type === "nyuad-image") {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: `url('${content.src}')`,
+              backgroundImage: `url('${baseURL}${content.src}')`,
             }}
           />
         </div>
